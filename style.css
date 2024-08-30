@@ -14,7 +14,7 @@ body {
     max-width: 800px;
     width: 100%;
     margin: 50px 15px;
-   /* margin: 50px auto;*/
+
 }
 
 .section {
@@ -83,6 +83,7 @@ body {
 
 .btn-lined {
     background-color: #ffff;
+    color: black;
     padding: 20px;
     border-radius: 30px;
     text-decoration: underline;
@@ -140,7 +141,6 @@ li {
     justify-content: center;
     height: 50px;
     color: #ffff;
-    
 }
 
 ul {
@@ -160,3 +160,102 @@ ul {
     margin-inline-start: 30px;
     margin: 15px, 20px;
 }
+
+.cont {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.conta {
+    padding: 5px;
+    height: 40px;
+    margin-left: 80%;
+}
+
+.footer-form {
+    margin: 0 auto;
+    padding: 60px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.w-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #333;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+.input [type="submit"] {
+    display: block;
+    padding: 6px 30px;
+    font-size: 14px;
+    background-color: #4460AA;
+    color: #fff;
+    border: none
+}
+
+
+
+@media screen and (max-width:1600px) {
+
+    .container-nav{
+        margin-left: 80%;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .container-nav{
+        margin-left: 50%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .container-nav{
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .container-nav{
+        margin-left: 0;
+    }
+    
+   
+}
+
+
